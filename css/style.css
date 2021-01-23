@@ -41,3 +41,106 @@ header .slogan {
     padding: 8px 2px;
     width: 100%;
 }
+
+.lang-list {
+    display: flex;
+    margin: 20px auto;
+    height: 300px;
+    width: 450px;
+}
+
+.lang-list img {
+    align-self: center;
+    height: 180px;
+    width: 200px;
+}
+
+.left-list, .right-list {
+    display: inline-block;
+}
+
+.lang-list ul {
+    list-style: none;
+}
+
+.lang-list ul li {
+    text-align: center;
+    width: 125px;
+}
+
+.lang-list ul li a {
+    color: #3366CC;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.lang-list ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lang-list ul li p {
+    color: #54595D;
+    font-size: 1.3rem;
+    margin: 3px 0;
+}
+
+.lang-list .lang1 {
+    position: relative;
+    top: 0;
+    right: -20px;
+}
+
+.lang-list .lang2 {
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+
+.lang-list .lang3 {
+    position: relative;
+    top: 40px;
+    right: 45px;
+}
+
+.lang-list .lang4 {
+    position: relative;
+    top: 60px;
+    right: 30px;
+}
+
+.lang-list .lang5 {
+    position: relative;
+    top: 80px;
+    right: -20px;
+}
+
+.lang-list .lang6 {
+    position: relative;
+    top: 0;
+    left: -20px;
+}
+
+.lang-list .lang7 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.lang-list .lang8 {
+    position: relative;
+    top: 40px;
+    left: 45px;
+}
+
+.lang-list .lang9 {
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+.lang-list .lang10 {
+    position: relative;
+    top: 80px;
+    left: -20px;
+}
