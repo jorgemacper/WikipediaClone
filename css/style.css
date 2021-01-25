@@ -144,3 +144,90 @@ header .slogan {
     top: 80px;
     left: -20px;
 }
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.input-search {
+    align-items: center;
+    display: flex;
+    height: 44px;
+    margin: 1rem 0;
+    position: relative;
+    width: 440px;
+}
+
+.input-search input {
+    border: 1px solid #a2a9b1;
+    border-radius: 2px 0 0 2px;
+    border-right: 0;
+    color: #a2a9b1;
+    font-size: 1.6rem;
+    height: 44px;
+    outline: 0;
+    padding: 0.8rem 5rem 0.8rem 1.6rem;
+    width: 100%;
+}
+
+.input-search input:focus {
+    border: 2px solid #36c;
+}
+
+
+.input-search .select-language {
+    top: 1.4rem;
+    right: 10.5rem;
+    position: absolute;
+}
+
+
+.input-search .select-language label {
+    color: #54595d;
+    font-size: 1.3rem;
+    margin-right: 5px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.input-search .select-language .arrow-down-icon {
+    background-position: 0 -519px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
+
+.input-search .select-language #search-language {
+    border: none;
+    background: transparent;
+    color: transparent;
+    outline: 0;
+    position: absolute;
+}
+
+.input-search .select-language #search-language option {
+    color: #a2a9b1;
+}
+
+.input-search button {
+    align-items: center;
+    background-color: #36c;
+    border: 1px solid #36c;
+    border-radius: 0 2px 2px 0;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    outline: 0;
+    padding: 0.8rem 1.6rem;
+    width: 56px;
+}
+
+.input-search button .icon-search {
+    background-position: 0 -697px;
+    height: 22px;
+    width: 22px;    
+}
