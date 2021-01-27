@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+a {
+    color: #3366CC;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -69,9 +75,7 @@ header .slogan {
 }
 
 .lang-list ul li a {
-    color: #3366CC;
     font-size: 1.6rem;
-    text-decoration: none;
 }
 
 .lang-list ul li a:hover {
@@ -192,15 +196,6 @@ header .slogan {
     text-transform: uppercase;
 }
 
-.input-search .select-language .arrow-down-icon {
-    background-position: 0 -519px;
-    height: 12px;
-    width: 12px;
-    position: absolute;
-    top: 0.5rem;
-    left: 2rem;
-}
-
 .input-search .select-language #search-language {
     border: none;
     background: transparent;
@@ -226,17 +221,11 @@ header .slogan {
     width: 56px;
 }
 
-.input-search button .icon-search {
-    background-position: 0 -697px;
-    height: 22px;
-    width: 22px;    
-}
-
 .language-list {
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 25px 0;
     margin: 0 auto;
     width: 450px;
 }
@@ -271,7 +260,149 @@ header .slogan {
     border: 2px solid #36c;
 }
 
-.language-list .btn-section .btn-language-list .icon-language {
+.line {
+    background-color: #c8ccd1;
+    border-width: 0;
+    color: #c8ccd1;
+    height: 1px;
+    margin: 25px auto;
+    width: 99%;
+}
+
+footer {
+    color: #54595D;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 18px 14px;
+}
+
+footer .footer-left {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    padding: 0 0 0 60px;
+    max-width: 410px;
+}
+
+footer .footer-left .footer-left__host {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+footer .footer-left .footer-left__host-content {
+    display: block;
+    width: 85%;
+}
+
+footer .footer-left .footer-left__host-content p {
+    color: #54595D;
+    margin-left: 10px;
+}
+
+.icon-host {
+    background-position: 0 -212px;
+    width: 42px;
+    height: 42px;
+}
+
+footer .footer-left .footer-left__apps {
+    background-color: #f8f9fa;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 10px;
+    max-height: 170px;
+}
+
+footer .footer-left .footer-left__apps-content {
+    display: block;
+    margin-left: 10px;
+    width: 85%;
+}
+
+footer .footer-left .footer-left__apps-content a {
+    font-weight: 700;
+}
+
+footer .footer-left .footer-left__apps-content p {    
+    margin: 13px 0;
+}
+
+footer .footer-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+footer .footer-right .project {
+    display: inline-flex;
+    margin: 20px 0;
+    width: 28%;
+}
+
+footer .footer-right .project-icon {
+    width: 50px;
+}
+
+footer .footer-right .project-text {
+    margin-left: 5px;
+}
+
+footer .footer-right .project span {
+    display: block;
+}
+
+footer .footer-bottom {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Icons */
+
+
+
+.icon-google-play {
+    background-position: 0 -541px;
+    display: inline-block;
+    width: 124px;
+    height: 38px;      
+}
+
+.icon-app-store {
+    background-position: 0 -579px;
+    display: inline-block;
+    width: 110px;
+    height: 38px;       
+}
+
+.icon-wiki-app {
+    background-position: 0 -719px;
+    display: block;
+    width: 42px;
+    height: 42px;    
+}
+
+.icon-search {
+    background-position: 0 -697px;
+    height: 22px;
+    width: 22px;    
+}
+
+.arrow-down-icon {
+    background-position: 0 -519px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
+
+.icon-language {
     background-position: 0 -617px;
     height: 22px;
     width: 22px;
@@ -280,11 +411,83 @@ header .slogan {
     top: 7px;
 }
 
-.language-list .btn-section .btn-language-list .icon-arrow-down-blue {
+.icon-arrow-down-blue {
     background-position: 0 -527px;
     height: 14px;
     width: 14px;
     position: absolute;
     right: 14px;
     top: 10px;
+}
+
+.icon-commons {
+    background-position: 0 0;
+    width: 47px;
+    height: 47px;
+}
+
+.icon-wikivoyage {
+    background-position: 0 -446px;
+    width: 36px;
+    height: 36px;
+}
+
+.icon-wiktionary {
+    background-position: 0 -482px;
+    width: 37px;
+    height: 37px;
+}
+
+.icon-wikibooks {
+    background-position: 0 -126px;
+    width: 37px;
+    height: 37px;    
+}
+
+.icon-wikinews {
+    background-position: 0 0;
+    width: 47px;
+    height: 26px;    
+}
+
+.icon-wikidata {
+    background-position: 0 -163px;
+    width: 49px;
+    height: 49px;    
+}
+
+.icon-wikiversity {
+    background-position: 0 -409px;
+    width: 43px;
+    height: 37px;    
+}
+
+.icon-wikiquote {
+    background-position: 0 -286px;
+    width: 42px;
+    height: 42px;    
+}
+
+.icon-mediawiki {
+    background-position: 0 -47px;
+    width: 42px;
+    height: 42px;    
+}
+
+.icon-wikisource {
+    background-position: 0 -328px;
+    width: 39px;
+    height: 39px;    
+}
+
+.icon-wikispecies {
+    background-position: 0 -367px;
+    width: 42px;
+    height: 42px;    
+}
+
+.icon-meta-wiki {
+    background-position: 0 -89px;
+    width: 37px;
+    height: 37px;    
 }
