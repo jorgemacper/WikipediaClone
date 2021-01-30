@@ -78,7 +78,7 @@ header .slogan {
     font-size: 1.6rem;
 }
 
-.lang-list ul li a:hover {
+.lang-list ul li a:hover strong {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -445,7 +445,9 @@ footer .footer-bottom {
 }
 
 .icon-wikinews {
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister@2x.png');
     background-position: 0 0;
+    background-size: 47px 26px;
     width: 47px;
     height: 26px;    
 }
